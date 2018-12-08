@@ -22,7 +22,7 @@
  //This is the class implementation file of the Particle-class.
 
 //Include local headers
-#include "particle.h"
+#include "Particle.h"
 
 //Create a namespace for this the use of this class
 namespace particlefire {

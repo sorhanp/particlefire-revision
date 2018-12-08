@@ -26,8 +26,8 @@
 #define SWARM_H_
 
 //Include local headers
-#include "screen.h"
-#include "particle.h"
+#include "Screen.h"
+#include "Particle.h"
 
 //Create a namespace for this the use of this class
 namespace particlefire {

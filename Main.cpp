@@ -25,7 +25,7 @@
 #include <ctime>
 
 //Include local headers
-#include "swarm.h"
+#include "Swarm.h"
 
 int main(int argc, char *args[]) {
 

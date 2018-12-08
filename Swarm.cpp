@@ -22,7 +22,7 @@
  //This is the class implementation file of the Swarm-class.
 
 //Include local headers
-#include "swarm.h"
+#include "Swarm.h"
 
 //Create a namespace for this the use of this class
 namespace particlefire {

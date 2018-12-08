@@ -22,7 +22,7 @@
  //This is the class implementation file of the Screen-class.
 
 //Include local headers
-#include "screen.h"
+#include "Screen.h"
 
 //Create a namespace for this the use of this class
 namespace particlefire {
