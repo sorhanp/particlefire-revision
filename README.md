@@ -6,7 +6,7 @@
 [blog]:https://sorhanp.github.io/
 
 # The Particle Fire Simulation
-![Particle fire](screenshot_blue.png)
+![Screenshot](/assets/screenshot_blue.png)
 
 This is the home page for the Particle Fire Simulation revision using SDL-library, demonstrating color pixel access and box blur algorithm. This program is part of the [C++ Tutorial for Complete Beginners][cppbeginners] course by [John Purcell][johnpurcell]. I have also kept [blog][blog] about my learning progress.
 
