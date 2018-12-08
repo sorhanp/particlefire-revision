@@ -1,7 +1,11 @@
+[cppbeginners]:https://courses.caveofprogramming.com/p/c-beginners
+[johnpurcell]:https://github.com/caveofprogramming
+[googleC++]:https://google.github.io/styleguide/cppguide.html
+[wiki]:https://github.com/sorhanp/particlefire-revision/wiki
+
 # The Particle Fire Simulation
-The Particle Fire Simulation revision using SDL-library, demonstrating color pixel access and box blur algorithm. This program is part of the https://courses.caveofprogramming.com/p/c-beginners course by John Purcell (https://github.com/caveofprogramming).
-This version is modified so that the program perform bit faster and the code itself is commented and stylized using https://google.github.io/styleguide/cppguide.htm style guide as much as possible to make the code bit more readable to users.
+This is the home page for the Particle Fire Simulation revision using SDL-library, demonstrating color pixel access and box blur algorithm. This program is part of the [C++ Tutorial for Complete Beginners][cppbeginners] course by [John Purcell].
 
-
+This version of the program is modified so that it performs more efficiently and the code itself is commented and stylized using [googleC++] as much as possible to make the code bit more readable to users. Please see the changes done to the original code and documentation in the [Project's wiki-page][wiki]. 
 
 Copyright(C) 2018 Hannupekka Sormunen

@@ -28,9 +28,9 @@
 namespace particlefire {
 
 	//Setting default values to static data members. They are used if config-file is missing or has wrong inputs.
-	int Screen::screen_width_ = 640;
-	int Screen::screen_height_ = 480;
-	unsigned int Screen::target_fps_ = 30;
+	int Screen::screen_width_ = 800;
+	int Screen::screen_height_ = 600;
+	unsigned int Screen::target_fps_ = 10;
 
 	//Constructor for Screen-class	
 	Screen::Screen() :m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer(NULL) {

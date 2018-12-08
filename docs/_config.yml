@@ -1,1 +1,68 @@
-theme: jekyll-theme-minimal
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: (Re)discovering the code
+email: hannupekka.sormunen@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The Particle Fire Simulation
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sorhanp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: sorhanp, Hannupekka Sormunen
+
+social:
+  name: Hannupekka Sormunen
+  links:
+    - https://www.linkedin.com/in/hannupekka-sormunen
+    - https://github.com/sorhanp
+
+linkedin_username:  hannupekka-sormunen
+github_username:  sorhanp
+
+# Google Analytics
+google_analytics: UA-128396487-1
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  
+# Show post from the "future"
+future: true
+
+#Enabling Excerpts on the Home Page
+show_excerpts: true
+
+#Enable code highlighting
+highlighter: rouge
+
+#enable Jekyll plugins
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
