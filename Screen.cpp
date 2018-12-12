@@ -278,7 +278,7 @@ namespace particlefire {
 	}
 
 	//Method for limiting frames per second(FPS)
-	void Screen::LimitFPS(int elapsed)//Method for limiting frames per second(FPS)
+	void Screen::LimitFPS(int elapsed)
 	{
 		//This delays the program by the amount, which is stored into target_fps_-variable.
 		//Better explanation how frame limiting works see documentation
