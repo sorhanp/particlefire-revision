@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{FEC15372-93FD-4823-AFD0-016C32B126E9}</ProjectGuid>
-    <RootNamespace>ParticleFireExplosionrevision</RootNamespace>
+    <RootNamespace>ParticleFireSimulationrevision</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>The Particle Fire Simulation revision</ProjectName>
   </PropertyGroup>
