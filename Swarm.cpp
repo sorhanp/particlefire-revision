@@ -124,9 +124,9 @@ namespace particlefire {
 
 		//These three variables are used to store value from algorithm that vary the number between 0 - 255 where 0 is complete black and 255 is complete white.
 		//Their value changes during programs run depending on the setting from the each _speed_-variable.
-		unsigned char red((unsigned char)((1 + sin(elapsed * red_speed_)) * 128));
-		unsigned char green((unsigned char)((1 + sin(elapsed * green_speed_)) * 128));
-		unsigned char blue((unsigned char)((1 + sin(elapsed * blue_speed_)) * 128));
+		Uint8 red(((1 + sin(elapsed * red_speed_)) * 128));
+		Uint8 green(((1 + sin(elapsed * green_speed_)) * 128));
+		Uint8 blue(((1 + sin(elapsed * blue_speed_)) * 128));
 
 		//Loop that goes through every particle on the screen and sends the values to SetPixel-function so that they can be drawn on the screen
 		for (int i = 0; i < nparticles_; i++) {
