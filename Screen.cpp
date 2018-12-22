@@ -227,11 +227,11 @@ namespace particlefire {
 				int green_total(0);
 				int blue_total(0);
 
-				for (int row = -1; row <= 1; row++) {
-					for (int col = -1; col <= 1; col++) {
-						int current_x(x + col);
-						int current_y(y + row);
-
+				for (int col = -1; col <= 1; col++) {
+					for (int row = -1; row <= 1; row++) {
+						int current_y(y + col);
+						int current_x(x + row);
+						
 						Uint32 color(m_buffer[current_y * screen_width_ + current_x]);
 
 						Uint8 red(color >> 16);
