@@ -23,6 +23,7 @@
 
 //Include local headers
 #include "Screen.h"
+#include <iostream>
 
 //Create a namespace for this the use of this class
 namespace particlefire {
@@ -30,7 +31,7 @@ namespace particlefire {
 	//Setting default values to static data members. They are used if config-file is missing or has wrong inputs.
 	int Screen::screen_width_ = 800;
 	int Screen::screen_height_ = 600;
-	unsigned int Screen::target_fps_ = 30;
+	unsigned int Screen::target_fps_ = 60;
 
 	//Constructor for Screen-class	
 	Screen::Screen() :m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer(NULL) {
@@ -223,9 +224,9 @@ namespace particlefire {
 		//Algorithm for applying boxblur. For more detailed explanation, please read the documentation
 		for (int y = 1; y < screen_height_ - 1; y++) {
 			for (int x = 1; x < screen_width_ - 1; x++) {
-				int red_total(0);
-				int green_total(0);
-				int blue_total(0);
+				Uint32 red_total(0);
+				Uint32 green_total(0);
+				Uint32 blue_total(0);
 
 				for (int col = -1; col <= 1; col++) {
 					for (int row = -1; row <= 1; row++) {
@@ -234,14 +235,15 @@ namespace particlefire {
 						
 						Uint32 color(m_buffer[current_y * screen_width_ + current_x]);
 
-						Uint8 red(color >> 16);
-						red_total += red;
-						
-						Uint8 green(color >> 8);
-						green_total += green;
-						
 						Uint8 blue(color);
 						blue_total += blue;
+
+						color >>=8;
+						Uint8 green(color);
+						green_total += green;
+
+						color >>=8;
+						red_total += color;
 
 					}
 				}

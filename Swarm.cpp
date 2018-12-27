@@ -28,7 +28,7 @@
 namespace particlefire {
 
 	//Setting default values to static data members. These are used if config-file is missing or has wrong inputs.
-	int Swarm::nparticles_ = 2000;
+	int Swarm::nparticles_ = 5000;
 	double Swarm::red_speed_ = 0.0009;
 	double Swarm::green_speed_ = 0.00005;
 	double Swarm::blue_speed_ = 0.00002;
