@@ -23,7 +23,6 @@
 
 //Include local headers
 #include "Screen.h"
-#include <iostream>
 
 //Create a namespace for this the use of this class
 namespace particlefire {
