@@ -10,7 +10,7 @@
 [boxblur]:https://github.com/sorhanp/particlefire-revision/wiki/Box-blur
 [particle_color]:https://github.com/sorhanp/particlefire-revision/wiki/Color
 
-# [The Particle Fire Simulation Revision][home]
+# The Particle Fire Simulation Revision
 
 This is the [home page][home] for the Particle Fire Simulation revision using [SDL-library][sdl] and written in C++ -programming language, demonstrating [color pixel access][particle_color] and [box blur algorithm][boxblur]. This program is part of the [C++ Tutorial for Complete Beginners][cppbeginners] course by [John Purcell][johnpurcell]. To read about other topics of the same course, please see entries on this [blog][blog], which is used to document the learning progress.
 
